@@ -1,5 +1,5 @@
 import numpy as np
-from picograd.engine import * 
+from picograd.engine import Value, optimize_graph, visualize_graph 
 
 def test_sequential_backprop():
     try:
@@ -60,7 +60,6 @@ def test_optimized_backprop():
     d = a * b
     e = d + c
     f = e.relu()
-    g = a.tanh
     h = b.exp()
     i = e.log()
 
