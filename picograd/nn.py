@@ -1,5 +1,5 @@
 import random
-from picograd.engine import *
+from picograd.engine import Value, visualize_graph
 
 class Neuron:
     def __init__(self, nin):

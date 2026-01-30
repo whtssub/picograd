@@ -3,6 +3,3 @@ __pycache__
 
 # ignore venv
 .venv
-
-# ignore graphs
-graphs
